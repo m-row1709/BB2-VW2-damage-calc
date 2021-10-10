@@ -38,7 +38,7 @@ const RBY: {[name: string]: SpeciesData} = {
     bs: {hp: 55, at: 50, df: 45, sp: 120, sl: 135},
     weightkg: 48,
   },
-  Arbok: {types: ['Poison'], bs: {hp: 60, at: 85, df: 69, sp: 80, sl: 65}, weightkg: 65},
+  Arbok: {types: ['Poison'], bs: {hp: 60, at: 95, df: 69, sp: 82, sl: 65}, weightkg: 65},
   Arcanine: {
     types: ['Fire'],
     bs: {hp: 90, at: 110, df: 80, sp: 95, sl: 80},
@@ -315,7 +315,7 @@ const RBY: {[name: string]: SpeciesData} = {
   },
   Jigglypuff: {
     types: ['Normal'],
-    bs: {hp: 115, at: 45, df: 20, sp: 20, sl: 25},
+    bs: {hp: 118, at: 45, df: 35, sp: 25, sl: 60},
     weightkg: 5.5,
     nfe: true,
   },
@@ -528,13 +528,13 @@ const RBY: {[name: string]: SpeciesData} = {
   },
   Parasect: {
     types: ['Bug', 'Grass'],
-    bs: {hp: 60, at: 95, df: 80, sp: 30, sl: 80},
+    bs: {hp: 65, at: 110, df: 100, sp: 30, sl: 80},
     weightkg: 29.5,
   },
-  Persian: {types: ['Normal'], bs: {hp: 65, at: 70, df: 60, sp: 115, sl: 65}, weightkg: 32},
+  Persian: {types: ['Normal'], bs: {hp: 65, at: 90, df: 60, sp: 115, sl: 85}, weightkg: 32},
   Pidgeot: {
     types: ['Normal', 'Flying'],
-    bs: {hp: 83, at: 80, df: 75, sp: 91, sl: 70},
+    bs: {hp: 99, at: 96, df: 75, sp: 102, sl: 70},
     weightkg: 39.5,
   },
   Pidgeotto: {
@@ -551,7 +551,7 @@ const RBY: {[name: string]: SpeciesData} = {
   },
   Pikachu: {
     types: ['Electric'],
-    bs: {hp: 35, at: 55, df: 30, sp: 90, sl: 50},
+    bs: {hp: 35, at: 65, df: 30, sp: 100, sl: 60},
     weightkg: 6,
     nfe: true,
   },
@@ -597,13 +597,13 @@ const RBY: {[name: string]: SpeciesData} = {
   },
   Raichu: {
     types: ['Electric'],
-    bs: {hp: 60, at: 90, df: 55, sp: 100, sl: 90},
+    bs: {hp: 60, at: 100, df: 55, sp: 110, sl: 100},
     weightkg: 30,
   },
   Rapidash: {types: ['Fire'], bs: {hp: 65, at: 100, df: 70, sp: 105, sl: 80}, weightkg: 95},
   Raticate: {
     types: ['Normal'],
-    bs: {hp: 55, at: 81, df: 60, sp: 97, sl: 50},
+    bs: {hp: 55, at: 91, df: 60, sp: 107, sl: 50},
     weightkg: 18.5,
   },
   Rattata: {
@@ -719,8 +719,8 @@ const RBY: {[name: string]: SpeciesData} = {
     weightkg: 29,
   },
   Venomoth: {
-    types: ['Bug', 'Poison'],
-    bs: {hp: 70, at: 65, df: 60, sp: 90, sl: 90},
+    types: ['Bug', 'Psychic'],
+    bs: {hp: 70, at: 55, df: 60, sp: 100, sl: 105},
     weightkg: 12.5,
   },
   Venonat: {
@@ -781,7 +781,7 @@ const RBY: {[name: string]: SpeciesData} = {
   },
   Wigglytuff: {
     types: ['Normal'],
-    bs: {hp: 140, at: 70, df: 45, sp: 45, sl: 50},
+    bs: {hp: 140, at: 70, df: 60, sp: 50, sl: 85},
     weightkg: 12,
   },
   Zapdos: {
@@ -856,7 +856,7 @@ const GSC_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
   Horsea: {bs: {sa: 70, sd: 25}},
   Hypno: {bs: {sa: 73, sd: 115}},
   Ivysaur: {bs: {sa: 80, sd: 80}},
-  Jigglypuff: {bs: {sa: 45, sd: 25}},
+  Jigglypuff: {bs: {sa: 60, sd: 40}},
   Jolteon: {bs: {sa: 110, sd: 95}},
   Jynx: {bs: {sa: 115, sd: 95}},
   Kabuto: {bs: {sa: 55, sd: 45}},
@@ -897,12 +897,12 @@ const GSC_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
   Omastar: {bs: {sa: 115, sd: 70}},
   Onix: {bs: {sa: 30, sd: 45}, nfe: true},
   Paras: {bs: {sa: 45, sd: 55}},
-  Parasect: {bs: {sa: 60, sd: 80}},
-  Persian: {bs: {sa: 65, sd: 65}},
+  Parasect: {bs: {sa: 60, sd: 100}},
+  Persian: {bs: {sa: 85, sd: 65}},
   Pidgeot: {bs: {sa: 70, sd: 70}},
   Pidgeotto: {bs: {sa: 50, sd: 50}},
   Pidgey: {bs: {sa: 35, sd: 35}},
-  Pikachu: {bs: {sa: 50, sd: 40}},
+  Pikachu: {bs: {sa: 60, sd: 40}},
   Pinsir: {bs: {sa: 55, sd: 70}},
   Poliwag: {bs: {sa: 40, sd: 40}},
   Poliwhirl: {bs: {sa: 50, sd: 50}},
@@ -911,7 +911,7 @@ const GSC_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
   Porygon: {bs: {sa: 85, sd: 75}, nfe: true, gender: 'N'},
   Primeape: {bs: {sa: 60, sd: 70}},
   Psyduck: {bs: {sa: 65, sd: 50}},
-  Raichu: {bs: {sa: 90, sd: 80}},
+  Raichu: {bs: {sa: 100, sd: 80}},
   Rapidash: {bs: {sa: 80, sd: 80}},
   Raticate: {bs: {sa: 50, sd: 70}},
   Rattata: {bs: {sa: 25, sd: 35}},
@@ -936,7 +936,7 @@ const GSC_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
   Tentacool: {bs: {sa: 50, sd: 100}},
   Tentacruel: {bs: {sa: 80, sd: 120}},
   Vaporeon: {bs: {sa: 110, sd: 95}},
-  Venomoth: {bs: {sa: 90, sd: 75}},
+  Venomoth: {bs: {sa: 105, sd: 75}},
   Venonat: {bs: {sa: 40, sd: 55}},
   Venusaur: {bs: {sa: 100, sd: 100}},
   Victreebel: {bs: {sa: 100, sd: 60}},
@@ -947,7 +947,7 @@ const GSC_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
   Weedle: {bs: {sa: 20, sd: 20}},
   Weepinbell: {bs: {sa: 85, sd: 45}},
   Weezing: {bs: {sa: 85, sd: 70}},
-  Wigglytuff: {bs: {sa: 75, sd: 50}},
+  Wigglytuff: {bs: {sa: 85, sd: 68}},
   Zapdos: {bs: {sa: 125, sd: 90}, gender: 'N'},
   Zubat: {bs: {sa: 30, sd: 40}},
   // gen 2 pokemon
@@ -3797,9 +3797,6 @@ const BW_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
   'Rotom-Heat': {types: ['Electric', 'Fire']},
   'Rotom-Mow': {types: ['Electric', 'Grass']},
   'Rotom-Wash': {types: ['Electric', 'Water']},
-  Pidgeot: {abilities: {0: 'Big Pecks'}},
-  Pidgeotto: {abilities: {0: 'Big Pecks'}},
-  Pidgey: {abilities: {0: 'Big Pecks'}},
   Accelgor: {
     types: ['Bug'],
     bs: {hp: 80, at: 70, df: 40, sa: 100, sd: 60, sp: 145},
