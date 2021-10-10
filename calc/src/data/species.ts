@@ -51,7 +51,7 @@ const RBY: {[name: string]: SpeciesData} = {
   },
   Beedrill: {
     types: ['Bug', 'Poison'],
-    bs: {hp: 65, at: 80, df: 40, sp: 75, sl: 45},
+    bs: {hp: 70, at: 105, df: 40, sp: 100, sl: 105},
     weightkg: 29.5,
   },
   Bellsprout: {
@@ -73,7 +73,7 @@ const RBY: {[name: string]: SpeciesData} = {
   },
   Butterfree: {
     types: ['Bug', 'Flying'],
-    bs: {hp: 60, at: 45, df: 50, sp: 70, sl: 80},
+    bs: {hp: 65, at: 45, df: 60, sp: 95, sl: 100},
     weightkg: 32,
   },
   Caterpie: {
@@ -805,11 +805,11 @@ const GSC_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
   Arbok: {bs: {sa: 65, sd: 79}},
   Arcanine: {bs: {sa: 100, sd: 80}},
   Articuno: {bs: {sa: 95, sd: 125}, gender: 'N'},
-  Beedrill: {bs: {sa: 45, sd: 80}},
+  Beedrill: {bs: {sa: 45, sd: 105}},
   Bellsprout: {bs: {sa: 70, sd: 30}},
   Blastoise: {bs: {sa: 85, sd: 105}},
   Bulbasaur: {bs: {sa: 65, sd: 65}},
-  Butterfree: {bs: {sa: 80, sd: 80}},
+  Butterfree: {bs: {sa: 100, sd: 100}},
   Caterpie: {bs: {sa: 20, sd: 20}},
   Chansey: {bs: {sa: 35, sd: 105}, nfe: true},
   Charizard: {bs: {sa: 109, sd: 85}},
@@ -3797,6 +3797,9 @@ const BW_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
   'Rotom-Heat': {types: ['Electric', 'Fire']},
   'Rotom-Mow': {types: ['Electric', 'Grass']},
   'Rotom-Wash': {types: ['Electric', 'Water']},
+  Pidgeot: {abilities: {0: 'Big Pecks'}},
+  Pidgeotto: {abilities: {0: 'Big Pecks'}},
+  Pidgey: {abilities: {0: 'Big Pecks'}},
   Accelgor: {
     types: ['Bug'],
     bs: {hp: 80, at: 70, df: 40, sa: 100, sd: 60, sp: 145},
