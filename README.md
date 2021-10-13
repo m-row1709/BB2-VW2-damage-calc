@@ -1,6 +1,6 @@
 # Blaze Black 2/Volt White 2 Damage Calculator
 
-![Test Status](https://github.com/smogon/damage-calc/workflows/Tests/badge.svg)
+![Test Status](https://github.com/m-row1709/BB2-VW2-damage-calc/workflows/Tests/badge.svg)
 [![npm version](https://img.shields.io/npm/v/@smogon/calc.svg)](https://www.npmjs.com/package/@smogon/calc)&nbsp;
 
 This damage calculator has been adapted from the official Pokemon Showdown! damage calculator for specific use with Drayano's ROM Hacks: Blaze Black 2 and Volt White 2. All functionality of the original damage calculator has been left unchanged, with the exception that all competitive sets have been removed. 
