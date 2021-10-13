@@ -5,7 +5,9 @@
 
 This damage calculator has been adapted from the official Pokemon Showdown! damage calculator for specific use with Drayano's ROM Hacks: Blaze Black 2 and Volt White 2. All functionality of the original damage calculator has been left unchanged, with the exception that all competitive sets have been removed. 
 
-The changes that have been made for this calculator are the changes that Drayano made to pokemon stats and move characteristics. The full list of changes made by Drayano can be found on his personal Google Drive: https://drive.google.com/drive/folders/0B-zmEVN0Mas6ZGt0ZmVva2pYeTQ?resourcekey=0-2ujVwGdN8ypDAEFr813nCw. Currently all trainer sets up the end-credits come imported as default (note: all sets have neutral natures, as Dray's documentation does not list the nature of the pokemon).
+The changes that have been made for this calculator are the changes that Drayano made to pokemon stats and move characteristics. The full list of changes made by Drayano can be found on his personal Google Drive: https://drive.google.com/drive/folders/0B-zmEVN0Mas6ZGt0ZmVva2pYeTQ?resourcekey=0-2ujVwGdN8ypDAEFr813nCw. 
+
+Currently all trainer sets up the end-credits come imported as default (note: all sets have neutral natures, as Dray's documentation does not list the nature of the pokemon).
 
 This calculator can be used both online and offline:
   -  To use online, simply visit the following link: https://m-row1709.github.io/BB2-VW2-damage-calc/dist/index.html?gen=5
